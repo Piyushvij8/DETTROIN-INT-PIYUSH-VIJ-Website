@@ -4,12 +4,12 @@ A modern, full-stack redesign of the Krishna International School (Aligarh)
 website, built for the Dettroin Full Stack Developer Internship — Round 1
 (Website Redesign Challenge).
 
-> ⚠️ **Fill in the fields below before submitting.**
 
-- **Full Name:**
+
+- **Piyush vij**
 - **Intern ID:**
-- **Email Address:**
-- **GitHub Username:**
+- **Email Address:piyushvij28@gmail.com**
+- **GitHub Username:Piyushvij8**
 - **Selected Website:** https://kisaligarh.com/
 - **Live Demo Link:**
 - **Technologies Used:** React 19, Vite, Tailwind CSS, Node.js, Express, SQLite
