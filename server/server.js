@@ -10,7 +10,6 @@ const ADMIN_KEY = process.env.ADMIN_KEY || "kis-admin-dev-key";
 app.use(cors());
 app.use(express.json({ limit: "10kb" }));
 
-// Very small rate limiter: max 5 enquiries per IP per 10 minutes, in-memory.
 const submissionLog = new Map();
 function rateLimited(ip) {
   const now = Date.now();
@@ -54,8 +53,6 @@ app.post("/api/enquiries", (req, res) => {
   res.status(201).json({ data: enquiry });
 });
 
-// Simple header-key protected admin listing — fine for an intern demo,
-// swap for real auth (sessions/JWT) before any real production use.
 app.get("/api/enquiries", (req, res) => {
   if (req.header("x-admin-key") !== ADMIN_KEY) {
     return res.status(401).json({ error: "Unauthorized" });
