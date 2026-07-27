@@ -16,7 +16,7 @@ export default function Contact() {
     setStatus("loading");
     setErrorMsg("");
     try {
-      const res = await fetch("/api/enquiries", {
+      const res = await fetch("https://dettroin-int-piyush-vij-website.onrender.com/api/enquiries", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),

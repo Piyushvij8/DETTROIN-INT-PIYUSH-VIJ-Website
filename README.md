@@ -6,7 +6,11 @@ website, built for the Dettroin Full Stack Developer Internship — Round 1
 
 
 
+<<<<<<< HEAD
 - **Piyush vij**
+=======
+- **Full Name:Piyush vij**
+>>>>>>> c2de2c437fc75cbc3faf4163bc1b0c657895d121
 - **Intern ID:**
 - **Email Address:piyushvij28@gmail.com**
 - **GitHub Username:Piyushvij8**
@@ -116,10 +120,6 @@ options:
    process. This is a bigger change — happy to help with it if you want
    to go that route.
 
-For the Round 1 submission itself, deploying the frontend alone to Vercel
-satisfies the brief; mention the backend as a "run locally to see the
-database in action" feature in your README/demo, or deploy it to Render
-as a bonus if you have time.
 
 ## Project structure (frontend)
 
