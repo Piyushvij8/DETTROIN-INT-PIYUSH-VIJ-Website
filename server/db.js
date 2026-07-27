@@ -5,7 +5,6 @@ import { fileURLToPath } from "node:url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DB_PATH = process.env.DB_PATH || path.join(__dirname, "data", "kis.sqlite");
 
-// Ensure the data directory exists.
 import { mkdirSync } from "node:fs";
 mkdirSync(path.dirname(DB_PATH), { recursive: true });
 
